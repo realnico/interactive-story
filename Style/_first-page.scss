@@ -1,0 +1,13 @@
+#main {
+  @include flex-temp;
+  min-height: 100vh;
+}
+
+#main-title {
+  font-size: 11rem;
+  color: $text-color;
+  line-height: 3rem;
+  font-weight: bold;
+  margin-bottom: 7rem;
+  text-shadow: 6px 6px 9px black;
+}

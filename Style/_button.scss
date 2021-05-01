@@ -1,0 +1,43 @@
+button {
+  cursor: pointer;
+  background-color: $btn-color;
+  text-shadow: 2px 2px 3px black;
+  border: none;
+  @include simple-anim;
+
+  &:hover {
+    background-color: #777;
+    color: rgb(233, 233, 233);
+  }
+}
+
+.home-btn {
+  font-size: 2rem;
+  padding: 1.3rem 2rem;
+  width: 25rem;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.btn-continue {
+  font-size: 2rem;
+  min-width: 20rem;
+  line-height: 2.5rem;
+  padding: 1.2rem;
+  border-radius: 1rem;
+}
+
+.go-back-btn {
+  width: 3%;
+  fill: white;
+  position: absolute;
+  margin-left: 5rem;
+  margin-top: 5rem;
+  @include simple-anim;
+
+  &:hover {
+    transform: rotate(-360deg);
+    fill: red;
+  }
+}

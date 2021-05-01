@@ -1,0 +1,160 @@
+button {
+  cursor: pointer;
+  background-color: #585858;
+  text-shadow: 2px 2px 3px black;
+  border: none;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+button:hover {
+  background-color: #777;
+  color: #e9e9e9;
+}
+
+.home-btn {
+  font-size: 2rem;
+  padding: 1.3rem 2rem;
+  width: 25rem;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.btn-continue {
+  font-size: 2rem;
+  min-width: 20rem;
+  line-height: 2.5rem;
+  padding: 1.2rem;
+  border-radius: 1rem;
+}
+
+.go-back-btn {
+  width: 3%;
+  fill: white;
+  position: absolute;
+  margin-left: 5rem;
+  margin-top: 5rem;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.go-back-btn:hover {
+  -webkit-transform: rotate(-360deg);
+          transform: rotate(-360deg);
+  fill: red;
+}
+
+#main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  min-height: 100vh;
+}
+
+#main-title {
+  font-size: 11rem;
+  color: white;
+  line-height: 3rem;
+  font-weight: bold;
+  margin-bottom: 7rem;
+  text-shadow: 6px 6px 9px black;
+}
+
+.choice-intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+#choice-title {
+  font-size: 6rem;
+  line-height: 6rem;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 3rem;
+  max-width: 35ch;
+}
+
+.choice-text {
+  max-width: 60ch;
+  font-size: 2.2rem;
+  line-height: 2.5ch;
+  text-align: center;
+  margin-bottom: 4rem;
+  letter-spacing: 1px;
+}
+
+#flowchart {
+  min-height: 100vh;
+}
+
+.flowchart-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#flowchart-h1 {
+  margin-top: 10rem;
+  font-size: 10rem;
+  color: white;
+  line-height: 3rem;
+  font-weight: bold;
+  margin-bottom: 7rem;
+  text-shadow: 6px 3px 1px rgba(255, 255, 255, 0.164);
+  opacity: 0.7;
+  text-align: center;
+  letter-spacing: 1rem;
+  z-index: 1;
+}
+
+#flowchart-red {
+  z-index: -1;
+  color: red;
+  font-size: 2.5rem;
+  letter-spacing: 2.1rem;
+  position: absolute;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #1f1f1f;
+  min-height: 100vh;
+}
+/*# sourceMappingURL=style.css.map */

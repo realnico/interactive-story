@@ -1,0 +1,22 @@
+.choice-intro {
+  @include flex-temp();
+}
+
+#choice-title {
+  font-size: 6rem;
+  line-height: 6rem;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 3rem;
+  max-width: 35ch;
+}
+
+.choice-text {
+  max-width: $text-w;
+  font-size: 2.2rem;
+  line-height: 2.5ch;
+  text-align: center;
+  margin-bottom: 4rem;
+  letter-spacing: 1px;
+}

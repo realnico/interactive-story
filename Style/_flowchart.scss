@@ -1,0 +1,32 @@
+#flowchart {
+  min-height: 100vh;
+}
+
+.flowchart-heading {
+  display: flex;
+  justify-content: center;
+}
+
+#flowchart-h1 {
+  margin-top: 10rem;
+  font-size: 10rem;
+  color: $text-color;
+  line-height: 3rem;
+  font-weight: bold;
+  margin-bottom: 7rem;
+  text-shadow: 6px 3px 1px rgba(255, 255, 255, 0.164);
+  opacity: 0.7;
+  text-align: center;
+  letter-spacing: 1rem;
+  z-index: 1;
+}
+
+#flowchart-red {
+  z-index: -1;
+  color: red;
+  font-size: 2.5rem;
+  letter-spacing: 2.1rem;
+  position: absolute;
+  text-align: center;
+  margin-top: 10rem;
+}
