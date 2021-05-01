@@ -6,8 +6,9 @@ button {
   @include simple-anim;
 
   &:hover {
-    background-color: #777;
-    color: rgb(233, 233, 233);
+    background-color: $btn-hover;
+    color: #161a1d;
+    text-shadow: none;
   }
 }
 
@@ -38,6 +39,6 @@ button {
 
   &:hover {
     transform: rotate(-360deg);
-    fill: red;
+    fill: $red;
   }
 }

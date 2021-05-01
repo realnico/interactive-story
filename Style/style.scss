@@ -1,7 +1,9 @@
-$btn-color: #585858;
-$text-color: white;
+$btn-color: #2b3338;
+$btn-hover: #d3d3d3;
+$text-color: #edf2f4;
+$red: #ba181b;
 $text-w: 60ch;
-$bg-color: #1f1f1f;
+$bg-color: #08090c;
 
 @mixin flex-temp {
   display: flex;
