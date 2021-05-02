@@ -157,7 +157,51 @@ button:hover {
   padding-bottom: 6rem;
 }
 
-#flowchart #flowchart-img {
+.st0 {
+  fill: #2b3338;
+}
+
+.st0:hover {
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+  fill: #ba181b;
+}
+
+.st1 {
+  fill: none;
+  stroke: #d3d3d3;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+
+.st2 {
+  fill: #d3d3d3;
+  stroke: #d3d3d3;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+
+.st3 {
+  fill: #ffffff;
+}
+
+.st4 {
+  font-family: "TimesNewRomanPSMT";
+}
+
+.st5 {
+  font-size: 24px;
+}
+
+.st6 {
+  fill: #edf2f4;
+}
+
+.st7 {
+  enable-background: new;
+}
+
+#layer_1 {
   width: 80%;
 }
 

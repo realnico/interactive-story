@@ -36,8 +36,44 @@
     margin-top: 4rem;
     padding-bottom: 6rem;
   }
+}
 
-  #flowchart-img {
-    width: 80%;
+.st0 {
+  fill: #2b3338;
+  &:hover {
+    @include simple-anim;
+    fill: $red;
   }
+}
+
+.st1 {
+  fill: none;
+  stroke: #d3d3d3;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+.st2 {
+  fill: #d3d3d3;
+  stroke: #d3d3d3;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+.st3 {
+  fill: #ffffff;
+}
+.st4 {
+  font-family: "TimesNewRomanPSMT";
+}
+.st5 {
+  font-size: 24px;
+}
+.st6 {
+  fill: #edf2f4;
+}
+.st7 {
+  enable-background: new;
+}
+
+#layer_1 {
+  width: 80%;
 }
