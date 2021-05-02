@@ -7,7 +7,7 @@ function run() {
         }
 else {
 alert("Maybe play the game first?");
-alert("Understand?");
+alert("Do you understand?");
 alert("Are you sure?");
  window.location = "index.html";
 }
