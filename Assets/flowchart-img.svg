@@ -124,7 +124,7 @@
 	<path pointer-events="stroke" class="st1" d="M348.4,1376.6H14.6V42.5H710"/>
 	<path pointer-events="all" class="st2" d="M724,42.5l-16,8l4-8l-4-8L724,42.5z"/>
 </g>
-<g id="Text">
+<g id="text">
 	<g transform="translate(-0.5 -0.5)scale(2)">
 		<text transform="matrix(0.5 0 0 0.5 381.8391 25.25)" class="st3 st4 st5">Waking up at 6.30</text>
 	</g>
