@@ -115,7 +115,7 @@
 		<text transform="matrix(0.5 0 0 0.5 639.4238 292.25)" class="st6 st4 st5">Unknown call</text>
 	</g>
 	<path pointer-events="stroke" class="st1" d="M1566.5,760.5l0.1,536.1l-319.7-0.1"/>
-	<path pointer-events="all" class="st2" d="M1235,1296.5l16-8l-4,8l4,8L1235,1296.5z"/>
+	<path pointer-events="all" class="st2" d="M1238,1296.4l16-8l-4,8l4,8L1238,1296.4z"/>
 	<g transform="translate(-0.5 -0.5)scale(2)">
 		<text transform="matrix(0.5 0 0 0.5 751.6768 369.25)" class="st6 st4 st5">Don&apos;t answer</text>
 	</g>
@@ -129,23 +129,23 @@
 	<g transform="translate(-0.5 -0.5)scale(2)">
 		<text transform="matrix(0.5 0 0 0.5 506.7768 442.8418)" class="st7"><tspan x="0" y="0" class="st6 st4 st5">Caller says &quot;People who</tspan><tspan x="0" y="28.8" class="st6 st4 st5">creates their own drama,</tspan><tspan x="0" y="57.6" class="st6 st4 st5">deserves their own karma&quot;</tspan></text>
 	</g>
-	<path pointer-events="stroke" class="st1" d="M990.5,1326.5l0.1,40h-120v23.5"/>
+	<path pointer-events="stroke" class="st1" d="M995.6,1326.5l0.1,40l-125.1,0v23.5"/>
 	<path pointer-events="all" class="st2" d="M870.6,1402l-8-16l8,4l8-4L870.6,1402z"/>
 	<path pointer-events="stroke" class="st1" d="M1230.5,1326.5l0.1,40h120v23.5"/>
 	<path pointer-events="all" class="st2" d="M1350.6,1402l-8-16l8,4l8-4L1350.6,1402z"/>
 	<g transform="translate(-0.5 -0.5)scale(2)">
 		<text transform="matrix(0.5 0 0 0.5 523.7676 652.25)" class="st6 st4 st5">Eat breakfast</text>
 	</g>
-	<path pointer-events="stroke" class="st1" d="M750.5,1466.5l0.1,196.9l103.4,0.1"/>
+	<path pointer-events="stroke" class="st1" d="M755,1466.7l0.1,196.9l99-0.1"/>
 	<path pointer-events="all" class="st2" d="M866,1663.5l-16,8l4-8l-4-8L866,1663.5z"/>
 	<path pointer-events="stroke" class="st1" d="M990.5,1466.5l0.1,76h401.9v59.5"/>
 	<path pointer-events="all" class="st2" d="M1392.5,1614l-8-16l8,4l8-4L1392.5,1614z"/>
 	<g transform="translate(-0.5 -0.5)scale(2)">
 		<text transform="matrix(0.5 0 0 0.5 419.5938 722.25)" class="st6 st4 st5">Cereal</text>
 	</g>
-	<path pointer-events="stroke" class="st1" d="M1230.5,1466.5l0.1,196.9l-103.7,0.1"/>
-	<path pointer-events="all" class="st2" d="M1115,1663.5l16-8l-4,8l4,8L1115,1663.5z"/>
-	<path pointer-events="stroke" class="st1" d="M1470.5,1436.5l42,0.1V1602"/>
+	<path pointer-events="stroke" class="st1" d="M1234.1,1466.5l0.1,196.9l-107.3,0"/>
+	<path pointer-events="all" class="st2" d="M1117.7,1663.4l16-8l-4,8l4,8L1117.7,1663.4z"/>
+	<path pointer-events="stroke" class="st1" d="M1472.4,1436.5l40.1,0.1V1602"/>
 	<path pointer-events="all" class="st2" d="M1512.5,1614l-8-16l8,4l8-4L1512.5,1614z"/>
 	<g transform="translate(-0.5 -0.5)scale(2)">
 		<text transform="matrix(0.5 0 0 0.5 662.3389 722.25)" class="st6 st4 st5">Toast</text>
@@ -212,7 +212,7 @@
 	<g transform="translate(-0.5 -0.5)scale(2)">
 		<text transform="matrix(0.5 0 0 0.5 492.1807 1664.25)" class="st6 st4 st5">To be continued...</text>
 	</g>
-	<path pointer-events="stroke" class="st1" d="M346.5,1406.5l-0.1-29.9H14.6V42.5H710"/>
+	<path pointer-events="stroke" class="st1" d="M348.4,1376.6H14.6V42.5H710"/>
 	<path pointer-events="all" class="st2" d="M724,42.5l-16,8l4-8l-4-8L724,42.5z"/>
 	<g transform="translate(-0.5 -0.5)scale(2)">
 		<g>
