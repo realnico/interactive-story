@@ -126,7 +126,7 @@
 </g>
 <g id="text">
 	<g transform="translate(-0.5 -0.5)scale(2)">
-		<text transform="matrix(0.5 0 0 0.5 381.8391 25.25)" class="st3 st4 st5">Waking up at 6.30</text>
+		<text transform="matrix(0.5 0 0 0.5 381.8391 25.25)" class="st3 st4 st5 st-text">Waking up at 6.30</text>
 	</g>
 	<g transform="translate(-0.5 -0.5)scale(2)">
 		<text transform="matrix(0.5 0 0 0.5 197.0986 167.25)" class="st6 st4 st5">Hit the snooze</text>
