@@ -7,11 +7,11 @@ button {
   background-color: #2b3338;
   text-shadow: 2px 2px 3px black;
   border: none;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
 }
 
 button:hover {
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
   background-color: #d3d3d3;
   color: #161a1d;
   text-shadow: none;
