@@ -1,3 +1,5 @@
+/* Global button style*/
+
 button {
   cursor: pointer;
   background-color: $btn-color;
@@ -12,6 +14,8 @@ button {
   }
 }
 
+/* Home button */
+
 .home-btn {
   font-size: 2rem;
   padding: 1.3rem 2rem;
@@ -21,6 +25,8 @@ button {
   margin-left: 1rem;
 }
 
+/* Get choices button*/
+
 .btn-continue {
   font-size: 2rem;
   min-width: 20rem;
@@ -28,6 +34,8 @@ button {
   padding: 1.2rem;
   border-radius: 1rem;
 }
+
+/* Go back to start button*/
 
 .go-back-btn {
   width: 3%;
@@ -37,6 +45,7 @@ button {
   margin-top: 5rem;
   @include simple-anim;
 
+  /* Rotating animation */
   &:hover {
     transform: rotate(-360deg);
     fill: $red;

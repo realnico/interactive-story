@@ -1,7 +1,10 @@
+/* The section of the page */
 #main {
   @include flex-temp;
   min-height: 100vh;
 }
+
+/* Me, myself and I - Main H1 */
 
 #main-title {
   font-size: 11rem;

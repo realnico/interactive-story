@@ -1,7 +1,9 @@
+/* Main text div, with display: flex */
 .choice-intro {
   @include flex-temp();
 }
 
+/* Text inside the div*/
 #choice-title {
   font-size: 6rem;
   line-height: 6rem;

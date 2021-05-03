@@ -1,3 +1,7 @@
+/* Variables */
+/* Functions */
+/* Sub pages for SCSS*/
+/* Global button style*/
 button {
   cursor: pointer;
   background-color: #2b3338;
@@ -13,6 +17,7 @@ button:hover {
   text-shadow: none;
 }
 
+/* Home button */
 .home-btn {
   font-size: 2rem;
   padding: 1.3rem 2rem;
@@ -22,6 +27,7 @@ button:hover {
   margin-left: 1rem;
 }
 
+/* Get choices button*/
 .btn-continue {
   font-size: 2rem;
   min-width: 20rem;
@@ -30,6 +36,7 @@ button:hover {
   border-radius: 1rem;
 }
 
+/* Go back to start button*/
 .go-back-btn {
   width: 3%;
   fill: white;
@@ -38,6 +45,7 @@ button:hover {
   margin-top: 5rem;
   -webkit-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
+  /* Rotating animation */
 }
 
 .go-back-btn:hover {
@@ -46,6 +54,7 @@ button:hover {
   fill: #ba181b;
 }
 
+/* The section of the page */
 #main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -64,6 +73,7 @@ button:hover {
   min-height: 100vh;
 }
 
+/* Me, myself and I - Main H1 */
 #main-title {
   font-size: 11rem;
   color: #edf2f4;
@@ -73,6 +83,7 @@ button:hover {
   text-shadow: 6px 6px 9px black;
 }
 
+/* Main text div, with display: flex */
 .choice-intro {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -90,6 +101,7 @@ button:hover {
   min-height: 100vh;
 }
 
+/* Text inside the div*/
 #choice-title {
   font-size: 6rem;
   line-height: 6rem;
@@ -111,6 +123,10 @@ button:hover {
 
 #flowchart {
   min-height: 100vh;
+  /* Container around the heading text*/
+  /* Flowchart title*/
+  /*Passcode in red behind Flowchart*/
+  /*Container around image */
 }
 
 #flowchart .flowchart-heading {
@@ -157,6 +173,7 @@ button:hover {
   padding-bottom: 6rem;
 }
 
+/*Flowchart boxes behind text*/
 .st0 {
   fill: #2b3338;
 }
@@ -185,6 +202,7 @@ button:hover {
   fill: #ffffff;
 }
 
+/* Text above boxes*/
 .st4 {
   font-family: "TimesNewRomanPSMT";
 }
@@ -201,10 +219,12 @@ button:hover {
   enable-background: new;
 }
 
-#layer_1 {
-  width: 80%;
+/* The image file */
+.layer-1 {
+  width: 85%;
 }
 
+/* Global styling */
 * {
   margin: 0;
   padding: 0;

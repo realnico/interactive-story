@@ -1,3 +1,4 @@
+/* Variables */
 $btn-color: #2b3338;
 $btn-hover: #d3d3d3;
 $text-color: #edf2f4;
@@ -5,6 +6,7 @@ $red: #ba181b;
 $text-w: 60ch;
 $bg-color: #08090c;
 
+/* Functions */
 @mixin flex-temp {
   display: flex;
   flex-direction: column;
@@ -17,11 +19,13 @@ $bg-color: #08090c;
   transition: all 0.5s ease-in-out 0s;
 }
 
+/* Sub pages for SCSS*/
 @import "button";
 @import "first-page";
 @import "start-game";
 @import "flowchart";
 
+/* Global styling */
 * {
   margin: 0;
   padding: 0;

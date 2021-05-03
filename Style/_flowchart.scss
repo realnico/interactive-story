@@ -1,11 +1,12 @@
 #flowchart {
   min-height: 100vh;
 
+  /* Container around the heading text*/
   .flowchart-heading {
     display: flex;
     justify-content: center;
   }
-
+  /* Flowchart title*/
   #flowchart-h1 {
     margin-top: 10rem;
     font-size: 10rem;
@@ -20,6 +21,8 @@
     z-index: 1;
   }
 
+  /*Passcode in red behind Flowchart*/
+
   #flowchart-red {
     z-index: -1;
     color: $red;
@@ -30,6 +33,7 @@
     margin-top: 10rem;
   }
 
+  /*Container around image */
   .flowchart-img-con {
     display: flex;
     justify-content: center;
@@ -38,6 +42,7 @@
   }
 }
 
+/*Flowchart boxes behind text*/
 .st0 {
   fill: #2b3338;
   &:hover {
@@ -61,6 +66,7 @@
 .st3 {
   fill: #ffffff;
 }
+/* Text above boxes*/
 .st4 {
   font-family: "TimesNewRomanPSMT";
 }
@@ -74,10 +80,8 @@
   enable-background: new;
 }
 
-#layer_1 {
-  width: 80%;
-}
+/* The image file */
 
-#Text {
-  fill: red;
+.layer-1 {
+  width: 85%;
 }
