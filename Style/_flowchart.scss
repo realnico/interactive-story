@@ -45,8 +45,9 @@
 /*Flowchart boxes behind text*/
 .st0 {
   fill: #2b3338;
+  transition: all 1s ease 0s;
   &:hover {
-    @include simple-anim;
+    transition: all 0.5s ease-out 0s;
     fill: $red;
   }
 }
