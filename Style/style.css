@@ -54,6 +54,15 @@ button:hover {
   fill: #ba181b;
 }
 
+.choice {
+  font-size: 2rem;
+  padding: 1.3rem 2rem;
+  width: 25rem;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
 /* The section of the page */
 #main {
   display: -webkit-box;
@@ -84,7 +93,7 @@ button:hover {
 }
 
 /* Main text div, with display: flex */
-.choice-intro {
+.start-intro {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -102,7 +111,7 @@ button:hover {
 }
 
 /* Text inside the div*/
-#choice-title {
+#start-title {
   font-size: 6rem;
   line-height: 6rem;
   font-style: italic;
@@ -112,7 +121,7 @@ button:hover {
   max-width: 35ch;
 }
 
-.choice-text {
+.start-text {
   max-width: 60ch;
   font-size: 2.2rem;
   line-height: 2.5ch;

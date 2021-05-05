@@ -38,20 +38,24 @@
         </span>
       </a>
       <!-- Text container -->
-      <section class="choice-intro">
-        <h1 id="choice-title">
+      <section class="start-intro">
+        <h1 id="start-title">
           "Every morning you have two choices: Continue to sleep with your dreams, or wake up and chase them!"
         </h1>
-        <p class="choice-text">
+        <p class="start-text">
           The clock is ticking, your state of dreaming is slowly passing away,
           and the time has come. What time? Well that all depends on one thing.
           What is time? You know what, just scratch that... Question for another
           time. Well either way, the alarm is ticking as i said. Aren´t you
           going to turn it off?
         </p>
-        <!-- Button to continue -->
-        <button class="btn-continue">Are we?</button>
+        <button class="btn-continue" onclick="startChoice()">Are we?</button>
+        <div class="choices-btns">
+          <button id="1" class="choice"></button>
+          <button id="2" class="choice"></button>
+        </div>
       </section>
+      <script src="/Javascript/choices-btn.js"></script>
     </body>
   </head>
 </html>
