@@ -11,13 +11,13 @@ let contentIntro = {
     <button id="2" class="choice" onclick="manipluationJump()">Jump out of bed</button>
   </div>`,
   snooze: `<h1 id="start-title">
-  "Lose an hour in the morning, and you will be all day hunting for it."
+  "Lose an hour in the morning, and <br> you will be all day hunting for it."
     </h1>
     <p class="start-text">
         Ahhh your a dreamer aren't you? You would rather stay in the dream world, then to live it? Well I see how it is, or as PJ would say it: "It's life"
     </p>
     <div class="choices-btns">
-        <button id="1" class="choice" onclick="manipluationSnoozeLate()">Go to sleep</button>
+        <button id="1" class="choice" onclick="manipulationSnoozeSleep()">Go to sleep</button>
     </div>`,
     turnOff: `<h1 id="start-title">
     "The best way to make your dreams come true is to wake up."
@@ -38,8 +38,8 @@ let contentSnooze = {
     <h1 id="start-title">"It is never too late to be what you might have been, or is it?"</h1>
     <p class="start-text">*clap* *clap* *clap*, well done buddy. Hope that dream was worth it. Well look at that, can you tell me what time it is? That was a rhetorical question my guy, so just shut the fuck up. The clock is fucking 7.30, and when does school start? You never learn, that was also a rhetorical question. It starts at 8.30. So no breakfast for you, just put on some clothes.</p>
     <div class="choices-btns"> 
-    <button id="1" class="choice" onclick="function()">Cargo and t-shirt</button>
-    <button id="2" class="choice" onclick="function()">Jeans and hoodie</button>
+    <button id="1" class="choice" onclick="manipluationSnoozeCloth()">Cargo and t-shirt</button>
+    <button id="2" class="choice" onclick="manipluationSnoozeCloth()">Jeans and hoodie</button>
     </div>
     `,
 
@@ -47,23 +47,23 @@ let contentSnooze = {
     <h1 id="start-title">"Life isn't perfect but your outfit can be."</h1>
     <p class="start-text">Hahahaha, that's what you are going to wear? I guess he was right, your choice in clothing is the same as your life choices. Absolute trash. Sorry to say it though, but you know... Someone had to. Now all you have to do, is to get to school. But since you woke up late you can't drive to school. Funny right? So what's it gonna be the subway or the bus?</p>
     <div class="choices-btns"> 
-    <button id="1" class="choice" onclick="function()">Subway</button>
-    <button id="2" class="choice" onclick="function()">Bus</button>
+    <button id="1" class="choice" onclick="manipluationSnoozeSub()">Subway</button>
+    <button id="2" class="choice" onclick="manipluationSnoozeBus()">Bus</button>
     </div>`,
 
     subway:`
     <h1 id="start-title">"The problem is not to find the answer, it's to face the answer."</h1>
     <p class="start-text">What a fine choice. Still going to be late for school, but not much to do about that. Should we put on some music?</p>
     <div class="choices-btns"> 
-    <button id="1" class="choice" onclick="function()">It's my life - Bon Jovi</button>
-    <button id="2" class="choice" onclick="function()">Demons - Imagine Dragons</button>
+    <button id="1" class="choice" onclick="manipluationSnoozeSubBon()">It's my life - Bon Jovi</button>
+    <button id="2" class="choice" onclick="manipluationSnoozeSubMag()">Magic - Coldplay</button>
     </div>`,
 
     bus:`
-    <h1 id="start-title">"Sometimes it's good to miss a bus. It might be the wrong bus."</h1>
+    <h1 id="start-title">"Sometimes it's good to miss a bus. It <br> might be the wrong bus."</h1>
     <p class="start-text">What a fine choice... The bus comes in 4 minutes, so you better start running. Hope you took those running classes you bought earlier. Who am I kidding, of course you didn't.</p>
     <div class="choices-btns"> 
-    <button id="1" class="choice" onclick="function()">Run for the bus</button>
+    <button id="1" class="choice" onclick="manipluationSnoozeBusRun()">Run for the bus</button>
     </div>`
 };
 
@@ -74,62 +74,62 @@ let contentSnoozeBus = {
     <h1 id="start-title">"ohhhhhh shit"</h1>
     <p class="start-text">Wow you didn't learn anything did you? You really thought that was the way to go, didn't you look at the hints? Dumb question I guess. Well, don't just lie there - stop the bleeding with your hand buddy. You really think that guy in the car, is going to help you?</p>
     <div class="choices-btns"> 
-    <button id="1" class="choice" onclick="function()">Wait for the driver</button>
-    <button id="2" class="choice" onclick="function()">Stop the bleeding</button>
+    <button id="1" class="choice" onclick="manipluationSnoozeBusWait()">Wait for the driver</button>
+    <button id="2" class="choice" onclick="manipluationSnoozeBusStop()">Stop the bleeding</button>
     </div>`,
 
     wait:`
     <h1 id="start-title">"Don´t depend too much on anyone in this world. Even your shadow leaves you when you´re in the dark."</h1>
     <p class="start-text">Hahah would you look at that, the driver ran of. Who would have seen that coming? Easy question, I DID! Either way, i'll see you later buddy. Maybe next time, you won't hit the snooze button?</p>
     <div class="choices-btns"> 
-    <button id="1" class="choice" onclick="function()">Get another chance</button>
+    <button id="1" class="choice" onclick="manipulationStart()">Get another chance</button>
     </div>`,
 
     stopBleeding:`
-    <h1 id="start-title">"It´s not the good that dies young, it´s the lucky."</h1>
+    <h1 id="start-title">"It´s not the good that dies<br>young, it´s the lucky."</h1>
     <p class="start-text">Buddy, that´s too much to stop. But i like your optimism. Sadly, life doesn´t doesn´t help people just because they are optimistic. But nice try though.</p>
     <div class="choices-btns"> 
-    <button id="1" class="choice" onclick="function()">Get another chance</button>
+    <button id="1" class="choice" onclick="manipulationStart()">Get another chance</button>
     </div>` 
 };
 
 /* Snooze path + Subway */
-let contentSub = {
+let contentSnoozeSub = {
 
     bonJovi:`
     <h1 id="start-title">"It's my life, it's now or never, I ain't gonna live forever."</h1>
     <p class="start-text">Gotta give you some props on your music taste, but either way I guess there is nothing more to then to just look at other people on the subway. It's going to be a long trip to school. So you have a lot of thinking to do, don't you?</p>
     <div class="choices-btns"> 
-    <button id="1" class="choice" onclick="function()">Wait</button>
+    <button id="1" class="choice" onclick="manipluationSnoozeSubWait()">Wait</button>
     </div>`,
 
-    dragons:`
-    <h1 id="start-title">"When the lights fade out, all the sinners crawl"</h1>
+    magic:`
+    <h1 id="start-title">"Call it magic, call it true, I call it magic when i'm with you"</h1>
     <p class="start-text">Gotta give you some props on your music taste, but either way I guess there is nothing more to then to just look at other people on the subway. It's going to be a long trip to school. So you have a lot of thinking to do, don't you?</p>
     <div class="choices-btns"> 
-    <button id="1" class="choice" onclick="function()">Wait</button>
+    <button id="1" class="choice" onclick="manipluationSnoozeSubWait()">Wait</button>
     </div>`,
 
     wait:`
     <h1 id="start-title">"Somewhere, something incredible is waiting to be know. Or something bad, I don't remember."</h1>
     <p class="start-text">*doors opening* Nice, you know how to walk out of the door. Just start walking to school buddy. Wait who are those guys running towards you? Well I know, I'm just asking you buddy. Ohh you don't remember do you? Guess, it's too late to tell you now. Maybe you should hide?</p>
     <div class="choices-btns"> 
-    <button id="1" class="choice" onclick="function()">Hide</button>
-    <button id="2" class="choice" onclick="function()">Just keep on walking</button>
+    <button id="1" class="choice" onclick="manipluationSnoozeSubHide()">Hide</button>
+    <button id="2" class="choice" onclick="manipluationSnoozeSubWalk()">Just keep on walking</button>
     </div>`,
 
     hide:`
     <h1 id="start-title">"When there is nothing left to hide, there is nothing left to seek."</h1>
     <p class="start-text">Ohhh wow. That must have hurt? A little stab in your belly can't be dangeours. Hahah just kidding, you are probably going to die. But who are you to blame? Me? Really? I don't think so buddy, this is all on you. Maybe next time, you shouldn't hit the snooze button. Your lucky I like you, i will give you another chance. Just promise me to not fuck this one up. </p>
     <div class="choices-btns"> 
-    <button id="1" class="choice" onclick="function()">Get another chance</button>
+    <button id="1" class="choice" onclick="manipulationStart()">Get another chance</button>
     </div>`,
 
     walk:`
     <h1 id="start-title">"We all - in the end - die in medias res. In the middle of a story."</h1>
     <p class="start-text">Ohhh wow. That must have hurt? A little stab in your belly can't be dangeours. Hahah just kidding, you are probably going to die. But who are you to blame? Me? Really? I don't think so buddy, this is all on you. Maybe next time, you shouldn't hit the snooze button. Your lucky I like you, i will give you another chance. Just promise me to not fuck this one up. </p>
     <div class="choices-btns"> 
-    <button id="1" class="choice" onclick="function()">Get another chance</button>
+    <button id="1" class="choice" onclick="manipulationStart()">Get another chance</button>
     </div>`
 };
 
@@ -293,16 +293,15 @@ let contentSchool = {
     stopFight:`
     <h1 id="start-title"></h1>
     <p class="start-text">
-    (Your name): "Guys stop it, wait a second"<br>(Your name Version 42): "Ahh so you remember me? It wasn't enough driving over me, beating me up and now you are going to do it again?"<br>(Your name): "What are you saying?"<br>(Your name Version 42): "So he didn't tell you?"<br>(Unknown): "Maybe now is a better time then never. (Your name) this is (Your name Version 42), i guess you have a lot of catching up to do:"
-</p>
+    (Your name): "Guys stop it, wait a second"<br>(Your name Version 42): "Ahh so you remember me? It wasn't enough driving over me, beating me up and now you are going to do it again?"<br>(Your name): "What are you saying?"<br>(Your name Version 42): "So he didn't tell you?"<br>(Unknown): "Maybe now is a better time then never. (Your name) this is (Your name Version 42), i guess you have a lot of catching up to do."</p>
     <div class="choices-btns"> 
     <button id="1" class="choice" onclick="function()"></button>
     <button id="2" class="choice" onclick="function()"></button>
     </div>`, 
 
     sayNo:`
-    <h1 id="start-title"></h1>
-    <p class="start-text"></p>
+    <h1 id="start-title">"Don't base your decisions on the advice of those who don't have to deal with the results."</h1>
+    <p class="start-text">(Your name): "That was the right thing to do, right?"<br>(Unknown): "Depends, do you remember the phone call?"<br>(Your name): "Wait what phone call?" <br>(Your name): "Oh no no no no, are you serious?"<br>(Unknown): "Karma is a bitch isn't it?"</p>
     <div class="choices-btns"> 
     <button id="1" class="choice" onclick="function()"></button>
     <button id="2" class="choice" onclick="function()"></button>

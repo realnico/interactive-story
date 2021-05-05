@@ -231,6 +231,10 @@ button:hover {
 }
 
 /* The image file */
+text .st-text {
+  fill: red;
+}
+
 .layer-1 {
   width: 85%;
 }
