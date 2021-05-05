@@ -1,4 +1,5 @@
-function run() {
+// Function for password to Flowchart
+function password() {
     var password = "perception";
     var x = prompt("Enter the password");
     if (x.toLowerCase() == password) {

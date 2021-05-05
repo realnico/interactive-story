@@ -1,8 +1,10 @@
-.choice-intro {
+/* Main text div, with display: flex */
+#start-intro {
   @include flex-temp();
 }
 
-#choice-title {
+/* Text inside the div*/
+#start-title {
   font-size: 6rem;
   line-height: 6rem;
   font-style: italic;
@@ -12,7 +14,7 @@
   max-width: 35ch;
 }
 
-.choice-text {
+.start-text {
   max-width: $text-w;
   font-size: 2.2rem;
   line-height: 2.5ch;

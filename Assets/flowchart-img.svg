@@ -11,7 +11,7 @@
 	.st5{font-size:24px;}
 	.st6{fill:#EDF2F4;}
 </style>
-<g id="Box">
+<g id="box">
 	<rect x="728.4" y="2.5" pointer-events="all" class="st0" width="240" height="80"/>
 	<rect x="348.4" y="286.5" pointer-events="all" class="st0" width="240" height="80"/>
 	<rect x="1208.4" y="286.5" pointer-events="all" class="st0" width="240" height="80"/>
@@ -44,7 +44,7 @@
 	<rect x="952.4" y="3290.5" pointer-events="all" class="st0" width="240" height="60"/>
 	<rect x="348.4" y="1346.5" pointer-events="all" class="st0" width="240" height="60"/>
 </g>
-<g id="Line">
+<g id="line">
 	<path pointer-events="stroke" class="st1" d="M730.5,82.3l0.1,102.1l-264,0.2V270"/>
 	<path pointer-events="all" class="st2" d="M466.6,282l-8-16l8,4l8-4L466.6,282z"/>
 	<path pointer-events="stroke" class="st1" d="M966.5,82.5l0.1,102.1h360V270"/>
