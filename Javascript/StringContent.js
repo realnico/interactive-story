@@ -87,7 +87,7 @@ let contentSnoozeBus = {
 
     stopBleeding:`
     <h1 id="start-title">"It´s not the good that dies<br>young, it´s the lucky."</h1>
-    <p class="start-text">Buddy, that´s too much to stop. But i like your optimism. Sadly, life doesn´t doesn´t help people just because they are optimistic. But nice try though.</p>
+    <p class="start-text">Buddy, that´s too much to stop. But i like your optimism. Sadly, life doesn´t help people just because they are optimistic. But nice try though.</p>
     <div class="choices-btns"> 
     <button id="1" class="choice" onclick="manipulationStart()">Get another chance</button>
     </div>` 
