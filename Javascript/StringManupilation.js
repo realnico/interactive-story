@@ -53,3 +53,84 @@ function manipluationSnoozeSubHide() {
 function manipluationSnoozeSubWalk() {
     section.innerHTML = contentSnoozeSub.walk;
 };
+
+
+
+/* Early path */
+function manipluationEarlyShower() {
+    section.innerHTML = contentEarly.takeShower;
+};
+function manipluationEarlyDontShower() {
+    section.innerHTML = contentEarly.dontTakeShower;
+};
+function manipluationEarlyShowerNow() {
+    section.innerHTML = contentEarly.InShower;
+};
+function manipluationEarlyClothsOn() {
+    section.innerHTML = contentEarly.clothsOn;
+};
+function manipluationEarlyAnswer() {
+    section.innerHTML = contentEarly.answerCall;
+};
+function manipluationEarlyHangUp() {
+    section.innerHTML = contentEarly.hangUp;
+};
+function manipluationEarlyDontAnswer() {
+    section.innerHTML = contentEarly.dontAnswerCall;
+};
+function manipluationEarlyToastCereal() {
+    section.innerHTML = contentEarly.breakfast;
+};
+
+/* Early + Subway */
+function manipluationEarlySubway() {
+    section.innerHTML = contentEarlySub.subway;
+};
+function manipluationEarlySubwayEminem() {
+    section.innerHTML = contentEarlySub.eminem;
+};
+function manipluationEarlySubwayRole() {
+    section.innerHTML = contentEarlySub.noModelz;
+};
+function manipluationEarlyZone() {
+    section.innerHTML = contentEarlySub.zoneOut;
+};
+function manipluationEarlyBuyTicket() {
+    section.innerHTML = contentEarlySub.buyTicket;
+};
+function manipluationEarlyDontBuyTicket() {
+    section.innerHTML = contentEarlySub.dontBuyTicket;
+};
+
+/* Early + Subway */
+function manipluationEarlyDrive() {
+    section.innerHTML = contentEarlyDrive.driving;
+};
+function manipluationEarlyDriveOut() {
+    section.innerHTML = contentEarlyDrive.driveOut;
+};
+function manipluationEarlyDriveWeak() {
+    section.innerHTML = contentEarlyDrive.weak;
+};
+function manipluationEarlyDriveBlackbear() {
+    section.innerHTML = contentEarlyDrive.blackbear;
+};
+
+
+
+/* Early + School */
+function manipluationEarlySchool() {
+    section.innerHTML = contentSchool.walk;
+};
+function manipluationEarlySchoolHello() {
+    section.innerHTML = contentSchool.sayHello;
+};
+function manipluationEarlySchoolYes() {
+    section.innerHTML = contentSchool.joinThem;
+};
+function manipluationEarlySchoolStop() {
+    section.innerHTML = contentSchool.stopFight;
+};
+function manipluationEarlySchoolNo() {
+    section.innerHTML = contentSchool.sayNo;
+};
