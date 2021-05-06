@@ -89,8 +89,8 @@ function manipluationEarlySubway() {
 function manipluationEarlySubwayEminem() {
     section.innerHTML = contentEarlySub.eminem;
 };
-function manipluationEarlySubwayRole() {
-    section.innerHTML = contentEarlySub.noModelz;
+function manipluationEarlySubwayRip() {
+    section.innerHTML = contentEarlySub.rip;
 };
 function manipluationEarlyZone() {
     section.innerHTML = contentEarlySub.zoneOut;

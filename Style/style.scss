@@ -3,7 +3,7 @@ $btn-color: #2b3338;
 $btn-hover: #d3d3d3;
 $text-color: #edf2f4;
 $red: #ba181b;
-$text-w: 60ch;
+$text-w: 61ch;
 $bg-color: #08090c;
 
 /* Functions */
@@ -25,11 +25,13 @@ $bg-color: #08090c;
 @import "start-game";
 @import "flowchart";
 
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 /* Global styling */
 * {
   margin: 0;
   padding: 0;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Playfair Display", serif;
   color: $text-color;
   font-size: 62.5%;
 }

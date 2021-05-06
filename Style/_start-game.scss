@@ -4,7 +4,8 @@
 }
 
 /* Text inside the div*/
-#start-title {
+#start-title,
+.span-title {
   font-size: 6rem;
   line-height: 6rem;
   font-style: italic;
@@ -14,11 +15,20 @@
   max-width: 35ch;
 }
 
-.start-text {
+.start-text,
+.span-text {
   max-width: $text-w;
   font-size: 2.2rem;
   line-height: 2.5ch;
   text-align: center;
   margin-bottom: 4rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
+}
+
+span {
+  color: red;
+}
+
+br {
+  line-height: 1ch;
 }

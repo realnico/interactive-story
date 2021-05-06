@@ -2,6 +2,7 @@
 /* Functions */
 /* Sub pages for SCSS*/
 /* Global button style*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 button {
   cursor: pointer;
   background-color: #2b3338;
@@ -87,9 +88,10 @@ button:hover {
   font-size: 11rem;
   color: #edf2f4;
   line-height: 3rem;
-  font-weight: bold;
-  margin-bottom: 7rem;
+  margin-bottom: 8rem;
   text-shadow: 6px 6px 9px black;
+  font-weight: 500;
+  font-style: italic;
 }
 
 /* Main text div, with display: flex */
@@ -111,7 +113,8 @@ button:hover {
 }
 
 /* Text inside the div*/
-#start-title {
+#start-title,
+.span-title {
   font-size: 6rem;
   line-height: 6rem;
   font-style: italic;
@@ -121,13 +124,22 @@ button:hover {
   max-width: 35ch;
 }
 
-.start-text {
-  max-width: 60ch;
+.start-text,
+.span-text {
+  max-width: 61ch;
   font-size: 2.2rem;
   line-height: 2.5ch;
   text-align: center;
   margin-bottom: 4rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
+}
+
+span {
+  color: red;
+}
+
+br {
+  line-height: 1ch;
 }
 
 #flowchart {
@@ -243,7 +255,7 @@ text .st-text {
 * {
   margin: 0;
   padding: 0;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Playfair Display", serif;
   color: #edf2f4;
   font-size: 62.5%;
 }
