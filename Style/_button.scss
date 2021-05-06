@@ -43,7 +43,7 @@ button {
   position: absolute;
   margin-left: 5rem;
   margin-top: 5rem;
-  @include simple-anim;
+  transition: all 0.3s ease-in-out 0s;
 
   /* Rotating animation */
   &:hover {
