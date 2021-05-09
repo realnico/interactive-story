@@ -85,7 +85,12 @@ button:hover {
 
 /* Me, myself and I - Main H1 */
 #main-title {
+<<<<<<< HEAD
   font-size: 15rem;
+=======
+  position: relative;
+  font-size: 11rem;
+>>>>>>> 6337930f729ad602cab8c30f0369c841daccf3ba
   color: #edf2f4;
   line-height: 3rem;
   margin-bottom: 12rem;
@@ -94,6 +99,7 @@ button:hover {
   font-style: italic;
 }
 
+/* Animation */
 /* Main text div, with display: flex */
 #start-intro {
   display: -webkit-box;
@@ -134,7 +140,8 @@ button:hover {
   letter-spacing: 0.5px;
 }
 
-span {
+.span-text,
+.span-title {
   color: red;
 }
 

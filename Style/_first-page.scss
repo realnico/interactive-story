@@ -7,7 +7,12 @@
 /* Me, myself and I - Main H1 */
 
 #main-title {
+<<<<<<< HEAD
   font-size: 15rem;
+=======
+  position: relative;
+  font-size: 11rem;
+>>>>>>> 6337930f729ad602cab8c30f0369c841daccf3ba
   color: $text-color;
   line-height: 3rem;
   margin-bottom: 12rem;
@@ -15,3 +20,5 @@
   font-weight: 500;
   font-style: italic;
 }
+
+/* Animation */
