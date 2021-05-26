@@ -5,12 +5,12 @@ button {
   background-color: $btn-color;
   text-shadow: 2px 2px 3px black;
   border: none;
+  @include simple-anim;
 
   &:hover {
-    @include simple-anim;
     background-color: $btn-hover;
     color: #161a1d;
-    text-shadow: none;
+    text-shadow: 2px 2px 3px $text-color;
   }
 }
 
