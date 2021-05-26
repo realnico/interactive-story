@@ -146,6 +146,10 @@ button:hover {
   color: red;
 }
 
+.span-text {
+  font-size: 2.5rem;
+}
+
 br {
   line-height: 1ch;
 }
@@ -259,6 +263,86 @@ text .st-text {
   width: 85%;
 }
 
+.bg-1 {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  width: 200%;
+  height: 200vh;
+  background: url("https://i.stack.imgur.com/CcydP.png") repeat 0 0;
+  background-repeat: repeat;
+  -webkit-animation: bg-animation 0.1s infinite;
+          animation: bg-animation 0.1s infinite;
+  opacity: 0;
+  z-index: -1;
+}
+
+.bg-2 {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  width: 200%;
+  height: 200vh;
+  background: url("https://i.stack.imgur.com/CcydP.png") repeat 0 0;
+  background-repeat: repeat;
+  -webkit-animation: bg-animation 0.1s infinite;
+          animation: bg-animation 0.1s infinite;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.bg-3 {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  width: 200%;
+  height: 200vh;
+  background: url("https://i.stack.imgur.com/CcydP.png") repeat 0 0;
+  background-repeat: repeat;
+  -webkit-animation: bg-animation 0.1s infinite;
+          animation: bg-animation 0.1s infinite;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.bg-4 {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  width: 200%;
+  height: 200vh;
+  background: url("https://i.stack.imgur.com/CcydP.png") repeat 0 0;
+  background-repeat: repeat;
+  -webkit-animation: bg-animation 0.1s infinite;
+          animation: bg-animation 0.1s infinite;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.bg-5 {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  width: 200%;
+  height: 200vh;
+  background: url("https://i.stack.imgur.com/CcydP.png") repeat 0 0;
+  background-repeat: repeat;
+  -webkit-animation: bg-animation 0.1s infinite;
+          animation: bg-animation 0.1s infinite;
+  opacity: 1;
+  z-index: -1;
+}
+
 /* Global styling */
 * {
   margin: 0;
@@ -271,23 +355,6 @@ text .st-text {
 body {
   background-color: #08090c;
   min-height: 100vh;
-}
-
-.bg {
-  position: fixed;
-  top: -50%;
-  left: -50%;
-  right: -50%;
-  bottom: -50%;
-  width: 200%;
-  height: 200vh;
-  background: url("http://assets.iceable.com/img/noise-transparent.png") repeat 0 0;
-  background-repeat: repeat;
-  -webkit-animation: bg-animation 0.1s infinite;
-          animation: bg-animation 0.1s infinite;
-  opacity: 1;
-  visibility: visible;
-  z-index: -1;
 }
 
 /* Animation */
